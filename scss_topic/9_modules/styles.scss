@@ -1,0 +1,9 @@
+// styles.scss
+@use 'mycss';
+
+.mypara {
+    font-size: mycss.$fs-1;
+    color: mycss.$aqua;
+    background-color: mycss.$bg-black;
+    padding: 15px;
+}

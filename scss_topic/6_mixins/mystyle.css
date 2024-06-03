@@ -1,0 +1,29 @@
+.mydiv {
+  background: #09447f;
+  box-shadow: 0 0 5px #09447f;
+  color: #fff;
+  height: auto;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.mynewdiv {
+  background: #986843;
+  box-shadow: 0 0 5px #986843;
+  color: #fff;
+  height: auto;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.text {
+  background: #890c6c;
+  box-shadow: 0 0 5px #890c6c;
+  color: #fff;
+  height: auto;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+}/*# sourceMappingURL=mystyle.css.map */

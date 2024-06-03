@@ -1,0 +1,12 @@
+.upperDiv {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.innerDiv {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: aquamarine;
+}/*# sourceMappingURL=style.css.map */

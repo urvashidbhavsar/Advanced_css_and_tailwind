@@ -1,0 +1,11 @@
+.slider {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  position: absolute;
+  left: 10px;
+  transition: left 2.2s;
+}
+.slider:hover {
+  left: 120px;
+}/*# sourceMappingURL=num.css.map */

@@ -1,0 +1,20 @@
+@use "sass:math";
+
+@mixin avatar($size, $circle: false) {
+    width: $size;
+    height: $size;
+
+    @if $circle {
+        border-radius: math.div($size, 2);
+    }
+}
+
+.upperDiv {
+    @include avatar(100px, $circle: false);
+    background-color: red;
+}
+
+.innerDiv {
+    @include avatar(100px, $circle: true);
+    background-color: aquamarine;
+}

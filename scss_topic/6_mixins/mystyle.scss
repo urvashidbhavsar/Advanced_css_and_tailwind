@@ -1,0 +1,21 @@
+@mixin mytheme($theme: #09447f) {
+    background: $theme;
+    box-shadow: 0 0 5px $theme;
+    color: #fff;
+    height: auto;
+    width: 350px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mydiv {
+    @include mytheme;
+}
+
+.mynewdiv {
+    @include mytheme($theme: #986843)
+}
+
+.text {
+    @include mytheme($theme: #890c6c)
+}

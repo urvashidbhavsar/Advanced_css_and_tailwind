@@ -1,0 +1,11 @@
+@use "sass:math";
+
+%blockstyle {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+div[role='main'] {
+    @extend %myclass;
+    width: math.div(300px, 400px)*100%;
+}

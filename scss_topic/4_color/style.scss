@@ -1,0 +1,9 @@
+$setColor : #123456;
+
+@debug mix($setColor, rgb(255, 234, 237));
+
+.mydiv {
+    height: 100px;
+    width: 100px;
+    background-color: mix($setColor, green);
+}

@@ -1,0 +1,6 @@
+@use "sass:string";
+
+p {
+    font-family: string.quote(Arial);
+    font-weight: string.unquote(bold);
+}

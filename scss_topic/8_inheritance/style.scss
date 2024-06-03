@@ -1,0 +1,17 @@
+%myclass {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mydiv {
+    @extend %myclass;
+    background-color: #09098f;
+    color: white;
+}
+
+.newdiv {
+    @extend %myclass;
+    background-color: #770f0f;
+    color: white;
+}

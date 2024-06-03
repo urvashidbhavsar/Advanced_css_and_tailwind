@@ -1,0 +1,20 @@
+@use "sass:math";
+
+$speed :math.div(1s, 50px);
+
+@mixin move($left-start, $left-end) {
+    position: absolute;
+    left: $left-start;
+    transition: left ($left-end - $left-start) * $speed;
+
+    &:hover {
+        left: $left-end;
+    }
+}
+
+.slider {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    @include move(10px, 120px)
+}
