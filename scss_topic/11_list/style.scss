@@ -1,0 +1,17 @@
+@use "sass:list";
+
+@debug list.nth(10px 12px 10px, 2);
+
+$size :50px,
+60px,
+70px;
+
+@each $s in $size {
+    .icon-#{$s} {
+        font-size: $s;
+        height: $s;
+        width: $s;
+        background-color: blue;
+        margin: $s;
+    }
+}

@@ -1,0 +1,30 @@
+@use "sass:map";
+
+$fonts-weight: (
+    "regular":400,
+    "medium":500,
+    "bold":700
+);
+@debug map.set($font-weights, "extra-bold", 900);
+
+@mixin addFontWeight($weight, $weightage) {
+    $font-weight : map.merge($font-weight, ($weight: $weightage))
+}
+
+$icons: (
+    "user": "\f007",
+    "brand": "\e07b",
+    "git": "\f09b"
+);
+
+h1 {
+    @include addFontWeight(700, 100)
+}
+
+@each $name, $glyph in $icons {
+    .icon-#{$name}:before {
+        content: $glyph;
+        display: inline-block;
+        font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+    }
+}

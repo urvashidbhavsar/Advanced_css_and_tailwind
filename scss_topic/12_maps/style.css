@@ -1,0 +1,17 @@
+.icon-user:before {
+  content: "\f007";
+  display: inline-block;
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+}
+
+.icon-brand:before {
+  content: "\e07b";
+  display: inline-block;
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+}
+
+.icon-git:before {
+  content: "\f09b";
+  display: inline-block;
+  font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+}/*# sourceMappingURL=style.css.map */
