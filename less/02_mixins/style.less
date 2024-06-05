@@ -1,0 +1,14 @@
+@height: auto;
+@width: 500px;
+
+.setborder {
+    border-top: 2px dashed blue;
+    border-bottom: 2px dashed blue;
+}
+
+.mydiv {
+    padding: 20px;
+    height: @height;
+    width: @width;
+    .setborder();
+}
