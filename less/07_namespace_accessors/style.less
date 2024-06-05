@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bundle() {
+    .div {
+        padding: 10px 20px;
+        background-color: blue;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid blue;
+
+        &:hover {
+            background-color: transparent;
+            color: blue;
+        }
+    }
+}
+
+.mydiv {
+    padding: 20px;
+    border: 2px solid black;
+    width: 500px;
+
+    #bundle.div;
+}

@@ -1,0 +1,12 @@
+@max576 :~"(max-width:576px)";
+
+.mydiv {
+    height: auto;
+    width: 300px;
+    border: 2px dashed red;
+    padding: 20px;
+
+    @media @max576 {
+        border: 2px solid black;
+    }
+}

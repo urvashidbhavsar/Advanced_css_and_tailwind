@@ -1,0 +1,17 @@
+//global variable
+@color : red;
+@width: 400px;
+
+.mydiv {
+    /* 
+    block scope
+    */
+    @color: blue;
+    width: @width;
+
+    .mypara {
+        color: @color;
+    }
+
+    color: @color;
+}
