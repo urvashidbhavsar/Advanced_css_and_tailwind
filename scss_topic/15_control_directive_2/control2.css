@@ -1,0 +1,8 @@
+.banner {
+  background-color: rgb(235, 227, 227);
+  color: white;
+}
+body.dark .banner {
+  background-color: rgb(36, 36, 36);
+  color: black;
+}/*# sourceMappingURL=control2.css.map */

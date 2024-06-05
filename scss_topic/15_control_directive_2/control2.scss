@@ -1,0 +1,24 @@
+$light-bg : rgb(235, 227, 227);
+$light-text: white;
+$dark-bg: rgb(36, 36, 36);
+$dark-text: black;
+
+@mixin themeColor($light-theme: true) {
+    @if $light-theme {
+        background-color: $light-bg;
+        color: $light-text;
+    }
+
+    @else {
+        background-color: $dark-bg;
+        color: $dark-text;
+    }
+}
+
+.banner {
+    @include themeColor($light-theme: true);
+
+    body.dark & {
+        @include themeColor($light-theme: false);
+    }
+}

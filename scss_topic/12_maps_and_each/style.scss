@@ -1,0 +1,28 @@
+@use "sass:map";
+
+$light-weights: (
+    "lightest": 100,
+    "light": 300
+);
+$heavy-weights: (
+    "medium": 500,
+    "bold": 700
+);
+
+@mixin addMerge($weight) {
+    $weight: map.merge($light-weights, $heavy-weights);
+}
+
+$icons: (
+    "user": "\f007",
+    "brand": "\e07b",
+    "git": "\f09b"
+);
+
+@each $name, $glyph in $icons {
+    .icon-#{$name}:before {
+        content: $glyph;
+        display: inline-block;
+        font-family: "Font Awesome 6 Free", "Font Awesome 6 Brands";
+    }
+}
