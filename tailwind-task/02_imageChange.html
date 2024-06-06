@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .main {
+            position: relative;
+        }
+
+        .main:hover .imgtext {
+            transform: translateY(-50px);
+        }
+
+        .back {
+            position: absolute;
+            top: 0;
+            z-index: -1;
+        }
+
+        .front,
+        .back,
+        .imgtext {
+            transition: 0.5s ease;
+        }
+
+        .main:hover .front {
+            opacity: 0;
+        }
+
+        .main:hover .back {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="h-[24rem] w-60 m-5 overflow-hidden main">
+        <div class="front">
+            <img src="https://urbantribe.in/cdn/shop/products/1_c2b2da86-e107-4945-96c2-5742cf277c94_280x.jpg?v=1618984413"
+                alt="">
+        </div>
+        <div class="back">
+            <img src="https://urbantribe.in/cdn/shop/products/Fitpackneo_3_600x.jpg?v=1618984413" alt="">
+        </div>
+        <div class="imgtext text-center p-4 bg-white">
+            <p>fitpack neo</p>
+            <p class="text-red-400">Rs. 1829.00 <s class="text-black">Rs. 2899.00</s></p>
+            <div class="flip p-3">
+                <button class="bg-red-500 text-white p-2 rounded-md">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
