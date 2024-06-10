@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <script>
+        // tailwind.config.js
+        module.exports = {
+            // ...
+            plugins: [
+                // ...
+                require('@tailwindcss/forms'),
+            ],
+        }
+    </script>
+</head>
+
+<body>
+    <div class="top-title bg-black flex">
+        <div class="text text-white grow text-center">
+            Get Extra 10% Discount, Use Code AJMAL10
+        </div>
+        <div class="close text-gray-400">
+            <span class="material-symbols-outlined">
+                close
+            </span>
+        </div>
+    </div>
+
+    <header>
+        <div class="container w-100 m-auto">
+            <div class="flex mx-10 items-center justify-between sm:justify-between lg:justify-normal gap-3">
+                <div class="logo p-3 grow sm:grow lg:grow-0">
+                    <img src="https://in.ajmal.com/public/images/logo.svg" alt="">
+                </div>
+                <div class="navbar p-3 grow hidden sm:hidden lg:block">
+                    <div class="navs">
+                        <ul class="flex justify-center gap-4 items-center">
+                            <li><a href="#" class="uppercase">home</a></li>
+                            <li><a href="#" class="uppercase">shop</a></li>
+                            <li><a href="#" class="uppercase">ajmal studio</a></li>
+                            <li><a href="#" class="uppercase">about</a></li>
+                            <li><a href="#" class="uppercase">our stores</a></li>
+                            <li><a href="#" class="uppercase">gifting</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grow-[0.5] flex justify-end items-center">
+                    <div class="icons flex gap-4 items-center">
+                        <div class="">
+                            <img src="https://in.ajmal.com/media//homepage/country_flag/india.webp" alt="" class="flag">
+                        </div>
+                        <div>
+                            <span class="material-symbols-outlined">
+                                login
+                            </span>
+                        </div>
+                        <div>
+                            <span class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </div>
+                        <div>
+                            <span class="material-symbols-outlined">
+                                local_shipping
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block sm:block lg:hidden">
+                    <button class="bg-green-400 text-white p-3 rounded">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="homepage pb-20">
+        <div>
+            <img src="https://in.ajmal.com/media/mageplaza/bannerslider/banner/image/p/r/premium-collection.jpg?auto=webp&format=pjpg&width=1280&height=1600&fit=cover"
+                alt="" class="h-[300px] sm:h-[300px] md:h-[500px] xl:h-[600px] w-[100%] object-cover">
+        </div>
+
+        <div class="text">
+            <p class="text-[26px] pt-20 pb-20 px-2 w-normal sm:w-normal lg:w-[600px] text-center m-auto">
+                It's an art. Craft. And science. At Ajmal Perfumes, we're in the business of creating memories that are
+                everlasting through our fragrances.
+            </p>
+            <div class="text-center">
+                <a href="" class="border-2 border-solid border-orange-400 p-2 rounded-full text-orange-900">Discover
+                    all</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="insta-post">
+        <div class="container w-100 m-auto">
+            <div class="flex justify-between mx-10 pb-10 flex-col sm:flex-row items-center">
+                <div class="title">
+                    <p class="text-[30px] italic">Instagram</p>
+                </div>
+                <div class="link">
+                    <a href="" class="text-orange-400">@ajmalperfumes
+                        <span class="material-symbols-outlined text-[13px] pt-2">
+                            arrow_forward
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="gallery mx-10 pb-10">
+                <div class="flex gap-3 flex-col sm:flex-row">
+                    <div class="grow">
+                        <img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.29350-15/445725779_827423189249802_3532739007335482038_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=ssA66goIilYQ7kNvgHLefJy&_nc_ht=scontent-mxp2-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYCexPtoxqeXTyivKk1wWQsBBaknf6gXJPL7DYxot7SXZw&oe=6668BDF1&auto=webp&format=pjpg&width=160&height=200&fit=cover"
+                            alt="">
+                    </div>
+
+                    <div class="grow">
+                        <img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.29350-15/444191794_968597534761435_1569479082147075585_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=zqTdOhLl7tYQ7kNvgERMUaU&_nc_ht=scontent-mxp2-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYAadqVZpgnYiDFhrM7JyzHbuBddoTdLV28Ur63OkR9umw&oe=6668C9C7&auto=webp&format=pjpg&width=160&height=200&fit=cover"
+                            alt="">
+                    </div>
+
+                    <div class="grow">
+                        <img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.29350-15/444445088_440418731916706_7280241168752492567_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=18de74&_nc_ohc=jX0jzS6FWMkQ7kNvgG0AiaC&_nc_ht=scontent-mxp2-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYB2WJabFZg4P1sGaPVCuYdegq22CnAiUi02pe8sPI8Ktg&oe=6668C6EB&auto=webp&format=pjpg&width=160&height=200&fit=cover"
+                            alt="">
+                    </div>
+
+                    <div class="grow">
+                        <img src="https://scontent-mxp2-1.cdninstagram.com/v/t51.29350-15/444191794_968597534761435_1569479082147075585_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=18de74&_nc_ohc=zqTdOhLl7tYQ7kNvgERMUaU&_nc_ht=scontent-mxp2-1.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AYAadqVZpgnYiDFhrM7JyzHbuBddoTdLV28Ur63OkR9umw&oe=6668C9C7&auto=webp&format=pjpg&width=160&height=200&fit=cover"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-teal-100">
+        <div class="container w-100 m-auto">
+            <div class="px-10 pt-2 pb-10">
+                <div class="title text-center">
+                    <p class="text-[30px] italic ">Newsletter and promotions</p>
+                    <p>Sign up to receive our latest news</p>
+                    <div class="py-4 flex justify-center">
+                        <div>
+                            <input type="text" name="" id=""
+                                class="border-b-2 border-solid border-black w-64 bg-transparent px-2 py-1 focus-visible:outline-none"
+                                placeholder="Email">
+                        </div>
+                        <div>
+                            <button class="border-b-2 border-solid border-black pt-1 text-[13px]">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- grid -->
+                <div class="gridsys grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <div class="grid1">
+                        <div>
+                            <img src="https://in.ajmal.com/public/images/logo.svg" alt="">
+                        </div>
+                        <p class="pt-3 italic">
+                            Nothing unlocks an old memory better than smell, be it the memory of lost love or of a fond
+                            friend.
+                        </p>
+                    </div>
+                    <div class="grid1">
+                        <h2 class="font-bold pb-3">Customer Support</h2>
+                        <ul>
+                            <li><a href="#" class="text-[13px] text-gray-600">Contact Us</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">FAQ's</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Store Locator</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Shipping Policy</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Terms & Condition</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Privacy Policy</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Refund & Returns</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid1">
+                        <h2 class="font-bold pb-3">Shop</h2>
+                        <ul>
+                            <li><a href="#" class="text-[13px] text-gray-600">Ajmal</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">and</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Deodorants</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Conbo</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid1">
+                        <h2 class="font-bold pb-3">Quick links</h2>
+                        <ul>
+                            <li><a href="#" class="text-[13px] text-gray-600">Our Journey</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Travel Retail</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Exports</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Crafting Memories</a></li>
+                            <li><a href="#" class="text-[13px] text-gray-600">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
